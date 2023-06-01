@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import Prop from "./Prop";
+// import Prop from "./Prop";
 import MessageList from "./components/MessageList"
-import Header from "./components/Header"
+// import Header from "./components/Header"
 
 // function App(){
 //   return(
@@ -22,8 +22,8 @@ class App extends Component{
         <h3>{this.state.subject} <br />{this.state.name} <br />{this.state.year}</h3>
         <Prop name="Jaswanth" age="23"/>
         <Prop name="DJ" age="24"/> */}
-        {/* <MessageList /> */}
-        <Header />
+        <MessageList />
+        {/* <Header /> */}
       </div>
     )
   }
